@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html , body {
+    width: 100%;
+    height: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+#left{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#left h1{
+    font-size: 130px;
+    font-family: sans-serif;
+    font-weight: 500;
+    line-height: 135px;
+}
+#bottom-left{
+    width: 100%;
+    height: 30%;
+}
+#color{
+    border: 1px solid black;
+    border-radius: 20px;
+    width: fit-content;
+    padding: 4px 10px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#color h5{
+    font-weight: 500px;
+    font-size: 16px;
+    margin: 0 10px;
+}
+#color1{
+    width: 20px;
+    height: 20px;
+    margin: 4px;
+    background-color: chocolate;
+    border-radius: 50%;
+    transition: 5ms;
+}
+#color2{
+    width: 20px;
+    height: 20px;
+    margin: 4px;
+    background-color: burlywood;
+    border-radius: 50%;
+    transition: 5ms;
+
+}
+#bottom-left h3{
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: 500px;
+    margin-bottom: 10px;
+}
+#bottom-left p{
+    font-size: 14px;
+    font-weight: 600px;
+    color: #444;
+    width: 70%;
+    margin-bottom: 10px;
+}
+/* ----------for right---------------- */
+#right{
+    width: 30%;
+    height:90%;
+    position: relative;
+    /* background-color: blue; */
+}
+#top-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 5px;
+}
+#top-right h4{
+    font-weight: 500px;
+    font-size: 20px;
+
+}
+#top-right h5{
+    font-weight: 500px;
+    font-size: 16px;
+}
+#top-right h5 i {
+    color: rgb(241, 209, 25);
+}
+#right img {
+    width: 100%;
+    height: 93%;
+    object-fit: cover;
+    position: top;
+}
+
+#black-circle{
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 60%;
+    right: -13%;
+    width: 100px;
+    height: 100px;
+    background-color: #EADBC8;
+    border-radius: 50%;
+}
+#black-circle , p5{
+    color: black;
+    font-weight: 500;
+
+}
+#rotated{
+    font-size: 20px;
+    position: absolute;
+    bottom: 0;
+    font-weight: 500;
+    font-size: 28px;
+    left: -10%;
+    rotate: -90deg;
+    transform-origin: 0 0;
+    
+
+}
+
+/* ------------hover ------------------ */
+#color1:hover{
+    border: 2px solid white;
+}
+#color2:hover{
+    border: 2px solid white;
+}
+#color:hover{
+    background-color: #444;
+    border-color: white;
+}
+#color:hover , p{
+    color: white;
+}
