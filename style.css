@@ -9,6 +9,7 @@ html , body {
     height: 100%;
 }
 #main{
+    background-color: #E8EFCF;
     height: 100%;
     width: 100%;
     display: flex;
@@ -118,7 +119,7 @@ html , body {
     right: -13%;
     width: 100px;
     height: 100px;
-    background-color: #EADBC8;
+    background-color: #B5C18E;
     border-radius: 50%;
 }
 #black-circle , p5{
